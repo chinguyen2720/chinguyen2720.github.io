@@ -1,0 +1,87 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+@font-face{
+	src:url(../font/Unipix.ttf);
+	font-family: font-1;
+}
+#wrapper{
+	width: 1024px;
+	height: 657px;
+/*	background: #D8FF00;*/
+	margin:0 auto;
+	background: url(../image/bg_1.jpg);
+	background-size: cover;
+}
+#header{
+	height: 65px;
+	width: 1024px;
+/*	background: #1AFF00;*/
+}
+#header #logo{
+	height: 25px;
+	width: 330px;
+/*	background: #00D3FF;*/
+	float: left;
+	padding-top:40px;
+	padding-left: 15px;
+}
+#logo a{
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+}
+#header #menu{
+	height: 65px;
+	width: 679px;
+/*	background: #001DFF;*/
+	float: right;
+}
+#menu ul{
+	list-style: none;
+	margin-top:40px;
+}
+#menu ul li{
+	float: left;
+	margin-left: 30px;
+}
+#menu ul li a{
+	color: white;
+	text-decoration: none;
+	transition-duration: 0.2s;
+	font-size:20px;
+	font-weight: bold;
+}
+#menu ul li a:hover {
+	color: green;
+}
+#content{
+	width: 1024px;
+	height: 592px;
+/*	background: red;*/
+/*	opacity: 0.2;*/
+
+}
+.text{
+	float: left;
+	width: 500px;
+	height: 375px;
+/*	background: green;*/
+	margin-top:145px;
+	padding-left: 15px;
+}
+.text button{
+	width: 200px;
+	height: 60px;
+	border: none;
+	background: #42b03f;
+	color: white;
+	font-size: 20px;
+	border-radius: 20px;
+}
